@@ -1,0 +1,93 @@
+.homepage {
+  .banner {
+    background-color: $default-bg-light-gray;
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 85% 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .banner-content {
+      height: 200px;
+      width: 60%;
+      h2 {
+        font-size: 4rem !important;
+        font-weight: bold;
+        color: $font-green-base-color !important;
+      }
+      h3 {
+        font-size: 1.5rem !important;
+      }
+      p {
+        font-size: 1.1rem !important;
+        max-width: 60%;
+      }
+      .btn-group {
+       
+        width: 230px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        button {
+          @include default-button(
+            0,
+            transparent,
+            $black,
+            $border-secondary,
+            10px 25px 
+          );
+          transition: all 100ms linear;
+          &:hover {
+            @include default-button(
+            0,
+            $transparent-white-bg,
+            $black,
+            $border-secondary,
+            10px 25px 
+           );
+           transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+  .catagory{
+    // border: solid 1px red;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    .product-list{
+      margin:32px;
+      width:20%;
+      border:solid 1px blue;
+      margin: 0px 5px;
+      height: 400px;
+      display:flex;
+    justify-content: space-between;
+    align-items: center;
+      .second{
+         border:solid 1px red;
+         margin-bottom: 330px;
+      }
+       .content-1{
+        h3{
+          font-weight: 700;
+          padding-left: 75px;
+        }
+        h4{
+              color: green !important;
+              font-family: 'FontAwesome';
+              font-weight: 300 !important;
+              text-align: center;
+             
+        }
+        p{
+          padding: 15px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

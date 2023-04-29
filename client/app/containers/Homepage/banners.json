@@ -1,0 +1,35 @@
+[
+  {
+    "imageUrl": "/images/banners/banner-1-bg.png",   
+    "title": "FASHION FOREVER",
+    "subTitle": "Fashion is a trend. Style lives within a person",
+    "buttonPrimaryText": "Explore",
+    "buttonPrimaryLink": "#",
+    "buttonSecondaryText": "Buy Now",
+    "buttonSecondaryLink": "#",
+    "content": "Get the best trendy fashion wear in the market, Get extra Rs 500/- coupen on your first purchase"
+  },
+  {
+    "imageUrl": "/images/banners/banner-2-bg.png",
+    "title": "SCORCH RUNNER V2",
+    "subTitle": "The coolest pair of casual shoes for men",
+    "buttonPrimaryText": "Explore",
+    "buttonPrimaryLink": "#",
+    "buttonSecondaryText": "Buy Now",
+    "buttonSecondaryLink": "#",
+    "content": "Buy the trendiest pair of Sneakers, Sports & Casual Shoes for Men. 30 Days Returns. Cash On Delivery. Free Shipping"
+  },
+  {
+    "imageUrl": "/images/banners/banner-3-bg.png",
+    "title": "SUPERSTAR SHOES",
+    "subTitle": "Connecting creators across cultures.",
+    "buttonPrimaryText": "Explore",
+    "buttonPrimaryLink": "#",
+    "buttonSecondaryText": "Buy Now",
+    "buttonSecondaryLink": "#",
+    "content": "Select from a wide variety of shoes available only on adidas online store at great prices."
+  },
+  {
+    "productUrl": "/images/banners/banner-3-bg.png" 
+  }
+]

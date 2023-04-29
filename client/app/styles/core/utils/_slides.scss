@@ -1,0 +1,43 @@
+.banner-content {
+    height: 200px;
+    width: 60%;
+    h2 {
+      font-size: 4rem !important;
+      font-weight: bold;
+      color: $font-green-base-color !important;
+    }
+    h3 {
+      font-size: 1.5rem !important;
+    }
+    p {
+      font-size: 1.1rem !important;
+      max-width: 60%;
+    }
+    .btn-group {
+     
+      width: 230px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 35px;
+      button {
+        @include default-button(
+          0,
+          transparent,
+          $black,
+          $border-secondary,
+          10px 25px 
+        );
+        transition: all 100ms linear;
+        &:hover {
+          @include default-button(
+          0,
+          $transparent-white-bg,
+          $black,
+          $border-secondary,
+          10px 25px 
+         );
+         transform: scale(1.1);
+        }
+      }
+    }
+  }
